@@ -27,6 +27,10 @@ function Data() {
               Count: <span className="font-medium">{item.total}</span>, Average:{" "}
               <span className="font-medium">{item.averageValue.toFixed(2)}</span>
             </div>
+            <div className="text-gray-600">
+              Min Value: <span className="font-medium">{item.minValue}</span>, Max Value:{" "}
+              <span className="font-medium">{item.maxValue}</span>
+            </div>
           </div>
         ))}
       </div>
